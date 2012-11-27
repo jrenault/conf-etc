@@ -1,0 +1,3 @@
+#Alerte auto
+
+0  0    * * *   root    git status
