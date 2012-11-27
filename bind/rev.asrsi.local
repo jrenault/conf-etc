@@ -1,0 +1,14 @@
+$TTL 86400
+
+@ IN SOA asrsi-lp.asrsi.net. root.asrsi.net.(
+	1;
+	1w;
+	1d;
+	4w;
+	1d;
+)
+@	IN	NS	asrsi-lp.asrsi.net.
+asrsi-lp	IN	A	192.168.0.150
+www	IN	CNAME	asrsi-lp.asrsi.net.
+
+
